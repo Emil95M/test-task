@@ -1,0 +1,38 @@
+.userslist{
+     border:1px solid #00be66;
+     background-color: rgba(255, 255, 255, 0.897);
+     flex: 1 1 100%;
+     overflow-y: auto;
+     width: 100%;
+}
+.userslist__list{
+        width: 100%;
+        min-height: 50px;
+        border:1px solid #00be658c;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        li{
+            color:gray;
+        }
+    }
+.userslist__list:hover{
+    border:1px solid #00be658c;
+    background-color: #00be658c;
+     li{
+        color:#fff
+     }
+    } 
+
+.users-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.userslist__item{
+        font-size: 18px;
+        color:#000;
+    }

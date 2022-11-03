@@ -1,0 +1,82 @@
+.userInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid #00be66;
+    box-shadow: 24;
+    display: flex;
+    flex-direction: column;
+}
+.user__title{
+ width: 100%;
+ height: 50px;
+ background-color: #00be66;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: #fff;
+ padding: 0px 10px;
+ span{
+     cursor: pointer;
+ }
+}
+.user__content{
+  flex: 1 1 100%;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    height: 400px;
+    overflow-y: auto;
+}
+.form__input-name,
+.form__input-username,
+.form__input-email,
+.form__input-website,
+.form__input-number,
+.form__input-adress,
+.form__input-companyname,
+.form__input-companyphrase{
+    margin-top: 20px;
+    span{
+        display: inline-block;
+        color:#00be66;
+        margin-bottom: 5px;
+    }
+    input{
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+        border:1px solid #00be66;
+    }
+}
+.user__content-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px 0px 0px;
+    .MuiCircularProgress-root{
+        width: 20px!important;
+        height: 20px!important;
+    }
+    button{
+        width: 200px;
+        height: 30px;
+        border:1px solid #00be66;
+        background: none;
+    }
+    &>button:hover{
+        background-color: #00be66;
+        color: #fff;
+    }
+}
